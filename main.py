@@ -1,4 +1,8 @@
 
+def P(buf):
+    buf[0] = buf[0]+"|)      "
+    buf[1] = buf[1]+"|       "
+    buf[2] = buf[2]+"        "
 def Z(buf):  
     buf[0] = buf[0]+"__      "
     buf[1] = buf[1]+" /      "
@@ -117,4 +121,5 @@ V(s)
 G(s)
 U(s)
 Z(s)
+P(s)
 print(*s, sep="\n")
