@@ -1,3 +1,8 @@
+
+def R(buf):
+    buf[0] = buf[0]+"|)      "
+    buf[1] = buf[1]+"|\      "
+    buf[2] = buf[2]+"        "
 def a(buf):            
     buf[0] = buf[0]+" /\     "
     buf[1] = buf[1]+"/--\    "
@@ -81,8 +86,10 @@ K(s)
 H(s)
 N(s)
 T(s)
+s = ["","","","","","","",""]
 C(s)
 B(s)
 D(s)
 W(s)
+R(s)
 print(*s, sep="\n")
