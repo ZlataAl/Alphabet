@@ -6,6 +6,10 @@ def M(buf):
     buf[0] = buf[0]+" |\/|   "
     buf[1] = buf[1]+" |  |   "
     buf[2] = buf[2]+"        "
+def I(buf):
+    buf[0] = buf[0]+"___     "
+    buf[1] = buf[1]+" |      "
+    buf[2] = buf[2]+"_|_     "
 def S(buf):
     buf[0] = buf[0]+" _      "
     buf[1] = buf[1]+"(_      "
@@ -46,6 +50,7 @@ def W(buf):
 s = ["","","","","","","",""]
 a(s)
 M(s)
+I(s)
 S(s)
 K(s)
 H(s)
