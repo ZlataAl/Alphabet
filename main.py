@@ -1,4 +1,8 @@
 
+def L(buf):
+    buf[0] = buf[0]+"|     "
+    buf[1] = buf[1]+"|_    "
+    buf[2] = buf[2]+"        "
 def P(buf):
     buf[0] = buf[0]+"|)      "
     buf[1] = buf[1]+"|       "
@@ -122,4 +126,5 @@ G(s)
 U(s)
 Z(s)
 P(s)
+L(s)
 print(*s, sep="\n")
