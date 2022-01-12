@@ -1,4 +1,8 @@
 
+def V(buf):
+    buf[0] = buf[0]+"\  /    "
+    buf[1] = buf[1]+" \/     "
+    buf[2] = buf[2]+"        "
 def R(buf):
     buf[0] = buf[0]+"|)      "
     buf[1] = buf[1]+"|\      "
@@ -97,4 +101,5 @@ D(s)
 W(s)
 R(s)
 Y(s)
+V(s)
 print(*s, sep="\n")
