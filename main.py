@@ -1,6 +1,10 @@
-def a(buf):
+def a(buf):            
     buf[0] = buf[0]+" /\     "
     buf[1] = buf[1]+"/--\    "
+    buf[2] = buf[2]+"        "   
+def M(buf):
+    buf[0] = buf[0]+" |\/|   "
+    buf[1] = buf[1]+" |  |   "
     buf[2] = buf[2]+"        "
 def C(buf):
     buf[0]=buf[0]+" _      "
@@ -17,6 +21,7 @@ def W(buf):
 
 s = ["","","","","","","",""]
 a(s)
+M(s)
 C(s)
 B(s)
 W(s)
