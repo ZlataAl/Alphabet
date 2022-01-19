@@ -4,12 +4,12 @@ def x(buf):
     buf[2] = buf[2]+"/\      "
 def L(buf):
     buf[0] = buf[0]+"        "
-    buf[1] = buf[1]+"|     "
-    buf[2] = buf[2]+"|_    "
+    buf[1] = buf[1]+"|       "
+    buf[2] = buf[2]+"|_      "
 def P(buf):
-    buf[0] = buf[0]+"       "
-    buf[1] = buf[1]+"|)       "
-    buf[2] = buf[2]+"|        "
+    buf[0] = buf[0]+"        "
+    buf[1] = buf[1]+"|)      "
+    buf[2] = buf[2]+"|       "
 def Z(buf):  
     buf[0] = buf[0]+"__      "
     buf[1] = buf[1]+" /      "
@@ -17,11 +17,11 @@ def Z(buf):
 def U(buf):
     buf[0] = buf[0]+"        "
     buf[1] = buf[1]+"| |     "
-    buf[2] = buf[2]+"|_|       "
+    buf[2] = buf[2]+"|_|     "
 def V(buf):
     buf[0] = buf[0]+"        "
-    buf[1] = buf[1]+" \  /     "
-    buf[2] = buf[2]+"  \/     "
+    buf[1] = buf[1]+" \  /   "
+    buf[2] = buf[2]+"  \/    "
 def R(buf):
     buf[0] = buf[0]+"|)      "
     buf[1] = buf[1]+"|\      "
